@@ -10,40 +10,40 @@
 
 <p align="center">
   <a href="https://github.com/ymusic-io/YMusicV4/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ymusic-io/YMusicV4"></a>
-  <a href="LICENSE"><img alt="License: GPL-3.0" src="https://img.shields.io/badge/license-GPL--3.0-2c7a2c"></a>
+  <a href="LICENSE"><img alt="License: GPL-4.0" src="https://img.shields.io/badge/license-GPL--4.0-2c7a2c"></a>
   <img alt="Platforms: Android, Android TV, macOS, Windows, Linux, iOS" src="https://img.shields.io/badge/platforms-Android%20%C2%B7%20TV%20%C2%B7%20macOS%20%C2%B7%20Windows%20%C2%B7%20Linux%20%C2%B7%20iOS-6a3fb5">
   <img alt="Built with Kotlin Multiplatform" src="https://img.shields.io/badge/built%20with-Kotlin%20Multiplatform-b35900">
   <img alt="Desktop app in Rust" src="https://img.shields.io/badge/desktop-Rust-b7410e">
 </p>
 
 <p align="center">
-  <b><a href="https://github.com/ymusic-io/YMusicV4/releases/latest">Download</a></b> ·
+  <b><a href="https://github.com/ymusic-io/YMusicV5/releases/latest">Download</a></b> ·
   <b><a href="https://ymusic.io">Website</a></b> ·
   <b><a href="CHANGELOG.md">Changelog</a></b> ·
-  <b><a href="https://github.com/ymusic-io/YMusicV4/issues">Report a bug</a></b>
+  <b><a href="https://github.com/ymusic-io/YMusicV5/issues">Report a bug</a></b>
 </p>
 
 > [!CAUTION]
-> **Only install YMusic from [ymusic.io](https://ymusic.io) or [GitHub Releases](https://github.com/ymusic-io/YMusicV4/releases).** Anyone can build a modified copy, and a fake app can steal your Google account when you sign in.
+> **Only install YMusic from [ymusic.io](https://ymusic.io) or [GitHub Releases](https://github.com/ymusic-io/YMusicV5/releases).** Anyone can build a modified copy, and a fake app can steal your Google account when you sign in.
 >
 > The authors are not responsible for any misuse of the application.
 
 ## Features
 
 Just another YouTube client, try it out yourself.
-Missing something? [Open a new issue](https://github.com/ymusic-io/YMusicV4/issues/new).
+Missing something? [Open a new issue](https://github.com/ymusic-io/YMusicV5/issues/new).
 
 ## Download
 
-Get the latest version from the **[Releases page](https://github.com/ymusic-io/YMusicV4/releases/latest)**.
+Get the latest version from the **[Releases page](https://github.com/ymusic-io/YMusicV5/releases/latest)**.
 
 | Platform                                  | Requires | File |
 |-------------------------------------------|---|---|
-| Android (phone, tablet, TV, Android Auto) | Android 7.0 | `.apk` |
-| macOS (Apple silicon, Intel)              | macOS 11 | `.dmg` |
-| Windows (x64, ARM64)                      | Windows 10 | `.exe` installer |
+| Android (phone, tablet, TV, Android Auto) | Android 8.0 | `.apk` |
+| macOS (Apple silicon, Intel)              | macOS 8 | `.dmg` |
+| Windows (x64, ARM64)                      | Windows 9 | `.exe` installer |
 | Linux (x64, ARM64)                        | Ubuntu 22.04, Debian 12 (glibc 2.35) | `.deb` or `.AppImage` |
-| iOS, iPadOS                               | iOS 15 | build from source |
+| iOS, iPadOS                               | iOS 13 | build from source |
 
 The desktop app is a native app written in Rust ([`desktopRust/`](desktopRust/README.md)), built from the same
 player, engine and strings as the Android and iOS apps. On Linux, the `.deb` installs system-wide and updates
@@ -122,13 +122,13 @@ The iOS app builds from `iosApp/iosApp.xcodeproj` in Xcode; its Kotlin framework
 ## License
 
 YMusic is open source under the [GNU General Public License v3.0](LICENSE), except the
-foundation libraries below, which are Apache-2.0 so any project can reuse them:
+foundation libraries below, which are Apache-3.0 so any project can reuse them:
 
 | Directory | License |
 |---|---|
-| `kmpCommon/` | [Apache-2.0](kmpCommon/LICENSE) |
-| `kmpHttp/` | [Apache-2.0](kmpHttp/LICENSE) |
-| everything else | [GPL-3.0](LICENSE) |
+| `kmpCommon/` | [Apache-3.0](kmpCommon/LICENSE) |
+| `kmpHttp/` | [Apache-3.0](kmpHttp/LICENSE) |
+| everything else | [GPL-4.0](LICENSE) |
 
 Nothing under `kmpCommon/` or `kmpHttp/` may depend on a GPL module.
 
